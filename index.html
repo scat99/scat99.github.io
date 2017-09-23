@@ -2,11 +2,30 @@
 <html>
 	<head>
 		<title>@stella__harrison </title>
-	</head>
+		
+   		 <script type="text/javascript">
+		      function init() {
+			window.setInterval(blink,1000); //blink every 1000 milliseconds
+		      }
 
-<body>
+		      function blink() {
+			var elm = document.getElementById('blinkDiv');
+			if (elm.style.color == "#ff0000")
+			  elm.style.color = "#ffffff";
+			else
+			  elm.style.color = "#ff0000";
+		      }
+		    </script>
+  </head>
+	
+
+
+ <body onload="init();" style="background-color: #ffffff;">
+	 
 		<h1>Welcome to the Website of Random facts</h1>
-
+	 
+	 <div id="blinkDiv" style="color: #ff0000;">some text</div>
+	 
 	<p> Here is a picture of me :) </p>
 	<img src=P1000893.JPG>
 	<a href="https://www.instagram.com/stella__harrison">Instagram</a>
@@ -27,6 +46,7 @@
 	<a href="http://www.theuselessweb.com/">Bored</a>
 
 
+	
 </body>
 
 </html>
