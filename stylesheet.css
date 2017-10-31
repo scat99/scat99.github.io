@@ -21,6 +21,10 @@ button {
 	
 }
 
+menu {
+	float: left;
+}
+
 body {
 background-color: pink;
 	
