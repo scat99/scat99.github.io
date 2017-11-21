@@ -43,7 +43,7 @@ ul {
 	background:plum;
 	margin: 0;
     	padding: 0;
-   	width: 200px;
+   	width: 25%;
 	display: inline;
 }
 
@@ -62,4 +62,9 @@ li a:hover {
 img {
     width: auto;
     height: auto;
+}
+
+div.wrapper {
+	
+	margin-left: 25%;
 }
