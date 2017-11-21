@@ -45,6 +45,7 @@ ul {
     	padding: 0;
    	width: 25%;
 	display: inline;
+	position: fixed;
 }
 
 li a {
